@@ -1,6 +1,6 @@
 <template>
-    <div class="Layout-container">
-
+    <div class="Index-container">
+        123
     </div>
 </template>
 
@@ -8,12 +8,12 @@
   import {Options, Vue} from 'vue-class-component';
 
   @Options({})
-  export default class Layout extends Vue {
+  export default class Index extends Vue {
   }
 </script>
 
 <style scoped lang="less">
-    .Layout-container {
-        height: 100%;
+    .Index-container {
+
     }
 </style>
